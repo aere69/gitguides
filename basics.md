@@ -21,7 +21,7 @@ The command **git status** gives information on the status of the current reposi
 
 Start a new repository on the top-level folder for your project with the command **git init**.
 
->Do not stat repositories inside a **repository!
+>Do not start repositories inside a repository!
 
 Before using **git init** run **git status** to make sure you are not inside a repository.
 
@@ -31,7 +31,7 @@ You can now add, delete, rename, edit files and directories in your project.
 
 Once you are ready you can use **git add** to stage the canges to be commited.
 
-you can use **git add .** to add all changed files to staging or **git add file1 file2 .. filen** to add specific files to staging.
+you can use **git add .** to add all changed files to staging or **git add file1 file2 .. fileN** to add specific files to staging.
 
 >Use **git status** to constantly verify what changes are staged amd not staged!
 
