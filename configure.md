@@ -1,4 +1,4 @@
-# Congigure Git
+# Configure Git
 
 ## Get Git version
 
