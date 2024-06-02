@@ -2,7 +2,7 @@
 
 Branches are alternative timelines of a project.
 
-They enable us to create separate contexts where we can try new things, or even work on multiple ideas in paralell.
+Branches enable us to create separate contexts where we can try new things, or even work on multiple ideas in paralell.
 
 >Changes to one branch do not impact changes to another branch (unles changes are merged!).
 
