@@ -4,7 +4,7 @@ Branches are alternative timelines of a project.
 
 Branches enable us to create separate contexts where we can try new things, or even work on multiple ideas in paralell.
 
->Changes to one branch do not impact changes to another branch (unles changes are merged!).
+>Changes to one branch do not impact changes to another branch (unless changes are merged!).
 
 In Git we are always working in one branch. The default branch is called **Master** or **Main**.
 

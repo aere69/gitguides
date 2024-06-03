@@ -2,10 +2,9 @@
 
 A Git Repository ("Repo") is a workspace that tracks and manages files within a folder.
 
-# Commiting
+## Commiting
 
->Commiting is the **most** important Git 
-feature.
+>Commiting is the **most** important Git feature.
 
 A Commit is equivalent to taking a snapshot of the repository at a given time. When commiting we can save the state of multiple files and folders.
 
@@ -27,9 +26,9 @@ Before using **git init** run **git status** to make sure you are not inside a r
 
 You can now add, delete, rename, edit files and directories in your project.
 
-### 2. Add Changes.
+### 2. Add Changes
 
-Once you are ready you can use **git add** to stage the canges to be commited.
+Once you are ready you can use **git add** to stage the changes to be commited.
 
 you can use **git add .** to add all changed files to staging or **git add file1 file2 .. fileN** to add specific files to staging.
 
