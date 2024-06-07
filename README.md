@@ -1,5 +1,6 @@
-# Git Guides
-Git Guides is a repository for Git, best practices and useful samples
+# GIT GUIDES
+
+Git Guides best practices and useful samples.
 
 - [Configure Git](https://github.com/aere69/gitguides/blob/main/configure.md)
 

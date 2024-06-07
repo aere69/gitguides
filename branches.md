@@ -57,3 +57,49 @@ To view additional information on a Branch use **-v** flag
 ```sh
 git branch -v
 ```
+
+### Rename a Branch
+
+- Rename current branch
+
+    ```sh
+    git branch -m <newName>
+    ```
+
+- Rename branch while pointed to another branch
+
+    ```sh
+    git branch -m <oldName> <newName>
+    ```
+
+- Push local branch and reset the upstream
+
+    ```sh
+    git push origin -u <newName>
+    ```
+
+- Delete remote branch
+
+    ```sh
+    git push origin --delete <oldName>
+    ```
+
+- Delete the old-name remote branch and push the new name local branch
+
+    ```sh
+    git push origin :<oldName> <newName>
+    ```
+
+- Unset the upstream
+
+    Make sure you run command **git status** and check that the newly created branch is pointing to its own ref and not the older one. If you find the reference to the older branch, you need to unset the upstream using:
+
+    ```sh
+    git branch --unset-upstream
+    ```
+
+- Reset the upstream branch for the newName local branch
+
+    ```sh
+    git push origin -u <newName>
+    ```
